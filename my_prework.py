@@ -14,12 +14,26 @@ def first_odds():
         
 first_odds()
 
+def first_odds2():
+    for i in range(1,101,2):
+        print(i)
+
 #Question-3
 
 a_list=[22,33,445,43]
 def max_num_in_list(a_list):
     print(max(a_list))
 max_num_in_list(a_list)
+
+
+def max_num_in_list(a_list2):
+    my_max=0
+    for num in a_list2:
+        if num>my_max:
+            my_max=num
+    return my_max
+max_num_in_list([100,99,88,34,22])
+
 
 #QUESTION-4
 a_year=400
